@@ -116,6 +116,7 @@ void insspe(){
 			return;
 		}
 		ptr=ptr->next;
+		i++;
 	}
 	nnode->next=ptr->next;
 	ptr->next=nnode;
